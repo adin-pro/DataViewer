@@ -27,7 +27,7 @@ void DataViewer::init(std::string config) {
 
 void DataViewer::run() {
   // init pangolin window
-  std::cout << kColorBlue << "Adin Viewer starts to run" << kColorReset
+  std::cout << kColorBlue << "Data Viewer starts to run" << kColorReset
             << std::endl;
   pangolin::CreateWindowAndBind("Data Viewer", 1624, 768);
   glEnable(GL_DEPTH_TEST);
